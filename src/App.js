@@ -1,10 +1,9 @@
 import './App.css';
-import Inicio from './Pagina-inicio.jsx';
+import Inicio from './paginas/pagina-inicio/Pagina-inicio.jsx';
 
 function App() {
   return (
     <div>
-      skyder ajua
       <Inicio/>
     </div>
   );
