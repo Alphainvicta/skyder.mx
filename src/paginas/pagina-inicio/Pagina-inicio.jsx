@@ -1,5 +1,6 @@
 import React from 'react';
 import Lista from '../../componentes/logos/Logos.lista'
+import Video from '../../componentes/videos/video-pureba.mp4';
 
 const Inicio = () => (
     
@@ -9,7 +10,7 @@ const Inicio = () => (
 
             <div className='video-contenedor-video'>
                <div className='video-video'>
-                    <video src="../../componentes/videos/video-pureba.mp4" autoplay muted/>
+                    <video src={ Video } muted autoPlay />
                 </div>
             </div>
             <div className='video-contenedor-texto'>
