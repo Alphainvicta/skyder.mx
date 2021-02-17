@@ -11,6 +11,12 @@ const Navegador = () => (
         <div>
             <Link to='/nosotros'>
                 <h1>Nosotros</h1>
+            </Link>
+            <Link to='/servicios'>
+                <h1>Servicios</h1>
+            </Link>
+            <Link to ='/contacto'>
+                <h1>Contacto</h1>
             </Link>   
         </div>
     </div>

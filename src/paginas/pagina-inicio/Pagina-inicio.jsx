@@ -1,20 +1,21 @@
 import React from 'react';
-import Lista from '../../componentes/logos/Logos.lista'
+import Lista from '../../componentes/logos/Logos-lista'
 import Video from '../../componentes/videos/video-pureba.mp4';
 
 const Inicio = () => (
     
 
     <div className='inicio'>
-        <div className='video-contenedor-general'>
+        <div className='inicio-contenedor-general'>
 
-            <div className='video-contenedor-video'>
-               <div className='video-video'>
+            <div className='inicio-contenedor-video'>
+               <div className='inicio-video'>
                     <video src={ Video } muted autoPlay />
                 </div>
             </div>
-            <div className='video-contenedor-texto'>
-                <div className='video-texto'>
+
+            <div className='inicio-contenedor-texto'>
+                <div className='inicio-texto'>
                     <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum magni magnam mollitia consequatur odit corrupti tempora nostrum velit temporibus illo ipsum molestias repudiandae facilis atque, qui sequi voluptatibus tempore odio!</h1>
                     <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum consequatur doloremque natus eaque nemo! Facere consequuntur a expedita quisquam aliquid doloremque natus repellendus explicabo velit, nostrum, nulla enim harum ut.</span>
                 </div> 

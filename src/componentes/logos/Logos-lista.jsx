@@ -1,5 +1,6 @@
 import React from 'react';
 import Logos from './Logos';
+
 import imagen0 from './imagenes/imagen0.png';
 import imagen1 from './imagenes/imagen1.png';
 import imagen2 from './imagenes/imagen2.png';
