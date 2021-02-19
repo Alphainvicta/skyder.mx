@@ -4,7 +4,7 @@ import Empleados from './Empleados.jsx';
 import foto0 from './fotos/foto0.png';
 import foto1 from './fotos/foto1.png';
 
-class Listado extends React.Component {
+class Lista extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -32,4 +32,4 @@ class Listado extends React.Component {
     }
 }
 
-export default Listado;
+export default Lista;

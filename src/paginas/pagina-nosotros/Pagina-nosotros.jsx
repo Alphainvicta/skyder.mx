@@ -1,5 +1,5 @@
 import React from 'react';
-import Listados from '../../componentes/empleados/Empleados-lista';
+import Lista from '../../componentes/empleados/Empleados-lista';
 
 const Nosotros = () => (
     <div className='nosotros'>
@@ -10,7 +10,7 @@ const Nosotros = () => (
             </div>
         </div>
         
-        <Listados />
+        <Lista />
 
         <div className='nosotros-adam-contenedor'>
             <div className='nosotros-adam-texto'>

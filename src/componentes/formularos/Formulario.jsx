@@ -28,20 +28,21 @@ class Formulario extends React.Component {
         return (
             <form onSubmit={ this.enviar }>
                 <input name='nombre_empresa' type='text' value={ this.state.nombre_empresa } onChange={ this.recibir } required/>
-                <label>Nombre/Empresa</label>
+                <label>Nombre/Empresa*</label>
                 <input name='correo' type='email' value={ this.state.correo } onChange={ this.recibir } required/>
-                <label>Correo</label>
+                <label>Correo*</label>
                 <input name='servicios0' type="checkbox" value={ this.state.servicios }/>
                 <labe>Foto y video</labe>
                 <input name='servicios1' type="checkbox" value={ this.state.servicios }/>
-                <labe>Droon shooting</labe>
+                <label>Droon shooting</label>
                 <input name='servicios2' type="checkbox" value={ this.state.servicios }/>
-                <labe>Foto 360</labe>
+                <label>Foto 360</label>
                 <input name='servicios3' type="checkbox" value={ this.state.servicios }/>
-                <labe>Edicion</labe>
+                <label>Edicion</label>
                 <input name='servicios4' type="checkbox" value={ this.state.servicios }/>
-                <labe>Algo mas</labe>
+                <label>Algo mas</label>
                 <textarea name='detalles' onChange={ this.recibir } required/>
+                <label>Dellates*</label>
 
                 <input type='submit' value='Enviar'/>
             </form>

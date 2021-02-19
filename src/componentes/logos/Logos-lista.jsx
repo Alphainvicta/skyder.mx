@@ -1,5 +1,5 @@
 import React from 'react';
-import Logos from './Logos';
+import Logo from './Logo.jsx';
 
 import imagen0 from './imagenes/imagen0.png';
 import imagen1 from './imagenes/imagen1.png';
@@ -10,7 +10,7 @@ class Lista extends React.Component {
         super();
 
         this.state = {
-            enlistado : [{
+            logos : [{
                 imagen : imagen0,
                 id : 0
             },
@@ -32,8 +32,8 @@ class Lista extends React.Component {
 
     render() {
         return (    
-            this.state.enlistado.map(({ imagen, id }) => (
-                <Logos key={ id } imagen={ imagen } />
+            this.state.logos.map(({ imagen, id }) => (
+                <Logo key={ id } imagen={ imagen } />
             ))
         )
     }

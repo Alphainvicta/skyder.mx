@@ -1,5 +1,5 @@
 import './App.css';
-import {Route} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 import Navegador from './componentes/navegador/Navegador.jsx';
 import Pie from './componentes/pie/Pie.jsx';
 
@@ -11,12 +11,14 @@ import Contacto from './paginas/pagina-contacto/Pagina-contacto.jsx';
 function App() {
   return (
     <div>
-      <div id="top"></div>
+      <div id="top" />
       <Navegador/>
-      <Route exact path='/' component={ Inicio }/>
-      <Route path='/nosotros' component={ Nosotros }/>
-      <Route path='/servicios' component={ Servicios }/>
-      <Route path='/contacto' component={ Contacto }/>
+      <Switch>
+        <Route exact path='/' component={ Inicio }/>
+        <Route path='/nosotros' component={ Nosotros }/>
+        <Route path='/servicios' component={ Servicios }/>
+        <Route path='/contacto' component={ Contacto }/>
+      </Switch>
       <Pie/>
     </div>
   );
