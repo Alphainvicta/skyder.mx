@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Servicio = ({ servicio, video, descripcion }) => (
     <div className='servicio'>
@@ -8,7 +9,10 @@ const Servicio = ({ servicio, video, descripcion }) => (
                 </div>
 
                 <div className='servicio-salir'>
-                    <button>salir</button>
+                    <Link to='/servicios'>
+                        <button>Regresar</button>
+                    </Link>
+                    
                 </div>
             </div>
 
@@ -24,10 +28,11 @@ const Servicio = ({ servicio, video, descripcion }) => (
                 </div>
                 
                 <div className='servicio-boton'>
-                    <button>hola</button>
+                    <Link to='/contacto'>
+                        <button>contactanos</button>
+                    </Link>
                 </div>
             </div>
-                
     </div>
 )
 

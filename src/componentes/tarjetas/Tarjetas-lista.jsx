@@ -20,30 +20,35 @@ class Lista extends React.Component {
                 fondo : fondo0,
                 categoria : [ <Comercial /> ],
                 servicio : 'Comerciales',
+                link : 'comerciales',
                 id : 0
             },
             {
                 fondo : fondo1,
                 categoria : [ <Comercial />, <Residencial /> ],
                 servicio : 'Eventos',
+                link : 'eventos',
                 id : 1
             },
             {
                 fondo : fondo2,
                 categoria : [ <Industrial />, <Comercial/> , <Residencial/> ],
                 servicio : 'Branding',
+                link : 'branding',
                 id : 2
             },
             {
                 fondo : fondo3,
                 categoria : [ <Industrial /> ],
                 servicio : 'Tecnicos',
+                link : 'tecnicos',
                 id : 3
             },
             {
                 fondo : fondo4,
                 categoria : [ <Industrial />, <Comercial /> ],
                 servicio : 'Operacion con dron',
+                link : 'operacion-con-dron',
                 id : 4
             }
             ]
@@ -52,8 +57,8 @@ class Lista extends React.Component {
 
     render() {
         return (    
-            this.state.tarjetas.map(({ fondo, categoria, servicio, id }) => (
-                <Tarjeta key={ id } servicio={ servicio } categoria={ categoria } fondo={ fondo }/>
+            this.state.tarjetas.map(({ id, ...tarjetaPropiedades }) => (
+                <Tarjeta key={ id } { ...tarjetaPropiedades } />
             ))
         )
     }

@@ -1,8 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 
-const Tarjeta = ({ categoria, servicio, fondo }) => (
-    <Link to='/servicios/servicio'>
+const Tarjeta = ({ categoria, servicio, fondo, link, history }) => (
+    <div onClick={() => history.push(`servicios/${link}`)}>
         <li className='tarjeta' style={{ backgroundImage: `url(${ fondo })`}} >
             <div className='tarjeta-categoria-contenedor'>
                 { categoria }
@@ -12,8 +12,8 @@ const Tarjeta = ({ categoria, servicio, fondo }) => (
                 <h2>{ servicio }</h2>
             </div>
         </li>
-    </Link>
+    </div>
     
 )
 
-export default Tarjeta;
+export default withRouter(Tarjeta);

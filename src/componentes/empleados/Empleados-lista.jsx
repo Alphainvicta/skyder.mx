@@ -23,10 +23,11 @@ class Lista extends React.Component {
             ]
         }
     }
+    
     render() {
         return (
-            this.state.equipo.map(({ foto, nombre, ocupacion, id }) => (
-                <Empleados key={ id } foto={ foto } nombre={ nombre } ocupacion={ ocupacion } />
+            this.state.equipo.map(({ id, ...empleadosPropiedades }) => (
+                <Empleados key={ id } { ...empleadosPropiedades } />
             ))
         )
     }
