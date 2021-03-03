@@ -1,2 +1,17 @@
-@import './estilos-generales/bootstrap.scss';
-@import './estilos-generales/Colores.scss';
+@import './estilos-generales/Bootstrap.scss';
+
+@import './estilos-generales/General.scss';
+
+@import './componentes/navegador/Navegador.scss';
+@import './componentes/pie/Pie.scss';
+
+@import './componentes/logos/Logos.scss';
+@import './componentes/empleados/Empleados.scss';
+@import './componentes/tarjetas/Tarjetas.scss';
+@import './componentes/formularos/Formulario.scss';
+
+@import './paginas/pagina-inicio/Pagina-inicio.scss';
+@import './paginas/pagina-nosotros/Pagina-nosotros.scss';
+@import './paginas/pagina-servicios/Pagina-servicios.scss';
+@import './componentes/servicios/Servicio.scss';
+@import './paginas/pagina-contacto/Pagina-contacto.scss';

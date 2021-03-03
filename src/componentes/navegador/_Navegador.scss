@@ -1,0 +1,19 @@
+.navegador{
+    margin-left: 20rem;
+    margin-right: 20rem;
+
+    .navegador-logo{
+        img{
+            width: 5rem;
+            height: auto;
+        }
+    }
+
+    .navegador-nav{
+        justify-content: flex-end;
+
+        a{
+            margin-left: 5rem;
+        }
+    }
+}

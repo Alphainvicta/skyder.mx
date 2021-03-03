@@ -7,10 +7,10 @@ const Formulario = () => {
         e.preventDefault();
     
         emailjs.sendForm('skyder-correos', 'formulario-correo', e.target, 'user_FairUAzw3Rg7FNhBSDodv')
-          .then((result) => {
-              alert('¡Se ha enviado exitosamente!');
+          .then(() => {
+            alert('¡Se envio exitosamente!')
           }, (error) => {
-              alert(error.text);
+            alert(error.text)
           });
 
         const limpieza = document.getElementById('formulario-correo');
@@ -19,32 +19,48 @@ const Formulario = () => {
 
       return (
          <form id='formulario-correo' onSubmit={enviar}>
-            <input type='text' name='nombre_empresa' required/>
-            <label>Nombre/Empresa*</label>
-            <input type='email' name='correo' required/>
-            <label>Correo*</label>
+            
+            <div className='formulario-contenedor-top'>
+                <div className='form-floating'>
+                    <input className='form-control' id='floatingInput' placeholder="Nombre/Empresa*" type='text' name='nombre_empresa' required/>
+                    <label for='floatingInput'>Nombre/Empresa*</label>
+                </div>
+            
+                <div className='form-floating'>
+                    <input className='form-control' id='floatingInput' placeholder="Correo*" type='email' name='correo' required/>
+                    <label for='floatingInput'>Correo*</label>
+                </div>
+            </div>
+
             <ul className='formulario-lista' >
-                <li>
-                    <input name='servicio0' type="checkbox" />
-                    <label >Foto y video</label>  
+                <li className='form-check form-switch'>
+                    <input className='form-check-input' name='servicio0' type='checkbox' id='flexSwitchCheckDefault'/>
+                    <label className='form-check-label' for='flexSwitchCheckDefault'>Foto y video</label>  
                 </li>
-                <li>
-                    <input name='servicio1' type="checkbox" />
-                    <label >Dron shooting</label>
+                <li className='form-check form-switch'>
+                    <input className='form-check-input' name='servicio1' type='checkbox' id='flexSwitchCheckDefault'/>
+                    <label className='form-check-label' for='flexSwitchCheckDefault'>Dron shooting</label>  
                 </li>
-                <li>
-                    <input name='servicio2' type="checkbox" />
-                    <label >Foto 360</label> 
+                <li className='form-check form-switch'>
+                    <input className='form-check-input' name='servicio2' type='checkbox' id='flexSwitchCheckDefault'/>
+                    <label className='form-check-label' for='flexSwitchCheckDefault'>Foto 360</label>  
                 </li>
-                <li>
-                    <input name='servicio3' type="checkbox" />
-                    <label >Edicion</label>
+                <li className='form-check form-switch'>
+                    <input className='form-check-input' name='servicio3' type='checkbox' id='flexSwitchCheckDefault'/>
+                    <label className='form-check-label' for='flexSwitchCheckDefault'>Edicion</label>  
                 </li>
             </ul>
-            <textarea name='detalles' required />
-            <label>Dellates*</label>
 
-            <input type='submit' value='Enviar' />  
+            <div className='formulario-detalles-contenedor'>
+                <div className='form-floating'>
+                    <textarea className='form-control' placeholder='Detalles' id='floatingTextarea2' name='detalles' required/>
+                    <label for='floatingTextarea2'>Dellates*</label>
+                </div>
+            </div>
+
+            <div className='formulario-boton-contenedor'>
+                <button type='submit' className='btn btn-outline-light' value='Enviar'>Enviar</button>
+            </div>
                 
         </form> 
       );

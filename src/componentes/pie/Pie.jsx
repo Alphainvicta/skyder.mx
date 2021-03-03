@@ -6,28 +6,36 @@ import { ReactComponent as Youtube } from './iconos/youtube.svg';
 import { ReactComponent as Behance } from './iconos/behance.svg';
 
 const Pie = () => (
-    <footer class='footer navbar-static-bottom'>
+    <footer class='footer'>
       <div class='pie-contenedor'>
-        <a href='#top' class='back-to-top'>
-            <Regresar />
-        </a>
+
+        <div className='regresar-arriba'>
+          <a href='#top'>
+            <Regresar className='regresar'/>
+          </a>
+        </div>
+        
         <div class='links-sociales'>
           <a href='https://www.facebook.com/skydergdl/' target='_blank' rel='noreferrer'>
-            <Facebook />
+            <Facebook className='facebook'/>
           </a>
           <a href='https://www.instagram.com/skydergdl/' target='_blank' rel='noreferrer'>
-            <Instagram />
+            <Instagram className='instagram'/>
           </a>
           <a href='https://www.youtube.com/channel/UCCtnY2p8i9SQHMrIV-KGjCw' target='_blank' rel='noreferrer'>
-            <Youtube />
+            <Youtube className='youtube'/>
           </a>
           <a href='https://www.behance.net/skyder' target='_blank' rel='noreferrer'>
-            <Behance />
+            <Behance className='behance'/>
           </a>
         </div>
 
         <hr />
-        <p class='pie-texto'>Descubre nuestras redes sociales</p>
+        <div className='__texto'>
+          <p>Descubre nuestras redes sociales</p>
+          <p>© 2021 - Skyder</p>
+        </div>
+        
       </div>
     </footer>
 )

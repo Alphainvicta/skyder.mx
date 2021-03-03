@@ -1,6 +1,8 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 
+import video0 from './videos/prueba.mp4';
+
 import Servicio from './Servicio.jsx';
 class Lista extends React.Component {
     constructor () {
@@ -9,8 +11,8 @@ class Lista extends React.Component {
         this.state = {
             servicios : [{
                 servicio : 'Comerciales',
-                video : '',
-                descripcion : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, aliquid nulla harum illo eius cumque esse error similique molestiae molestias non eligendi! Ex laboriosam consequatur laborum recusandae aut ullam velit.',
+                video : video0,
+                descripcion : 'Descripcion rapida del servicio',
                 link : '/servicios/comerciales',
                 id : 0
             },

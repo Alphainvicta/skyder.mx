@@ -1,0 +1,17 @@
+.empleados{
+    padding: 2rem;
+
+    .empleados-foto{
+
+        img{
+            width: 18rem;
+            height: 18rem;
+            border-radius: 100%;
+        }
+    }
+
+    .empleados-texto{
+        text-align: center;
+        padding-top: 1rem;
+    }
+}

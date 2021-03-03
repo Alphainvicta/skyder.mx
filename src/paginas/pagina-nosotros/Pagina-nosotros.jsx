@@ -3,14 +3,16 @@ import Lista from '../../componentes/empleados/Empleados-lista';
 
 const Nosotros = () => (
     <div className='nosotros'>
-        <div className='nosotros-texto-contenedor'>
-            <div className='nosotros-texto'>
+        <div className='nosotros-titulo-contenedor'>
+            <div className='nosotros-titulo'>
                 <h1>Nosotros</h1>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui corporis excepturi fugit illo soluta beatae sit consequuntur expedita iste, itaque deserunt atque id amet voluptas quasi blanditiis dicta repellat officiis!</span>
+                <h2>Conoce el equipo skyder</h2>
             </div>
         </div>
         
-        <Lista />
+        <div className='nosotros-empleados-contenedor'>
+            <Lista />
+        </div>
 
         <div className='nosotros-adam-contenedor'>
             <div className='nosotros-adam-texto'>

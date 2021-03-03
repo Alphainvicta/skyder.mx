@@ -1,3 +1,53 @@
-.video-texto {
-    color: #000;
+.inicio-contenedor-general{
+   margin-top: 2rem;
+   margin-left: 20rem;
+   margin-right: 20rem;
+    
+   .inicio-titulo-contenedor {
+        text-align: center;
+
+        h1 {
+            font-size: 6rem;
+        }
+    }
+
+    .inicio-contenedor-video{
+        video{
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
 }
+
+.empresas-contenedor-general{
+    margin: 10rem;
+    margin-bottom: 3rem;
+
+    .empresas-contenedor-texto {
+        border: 2rem solid transparent;
+        display: flex;
+        justify-content: center;
+        
+        h1{
+            font-size: 1.5rem;
+        }
+    }
+
+    .empresas-contenedor-logos{
+        margin-left: 3rem;
+        margin-right: 3rem;
+
+        .empresas-lista-logos{
+            display: flex;
+            justify-content: space-evenly;
+            animation: presentacion 3s infinite linear;
+        }
+    
+        @keyframes presentacion {
+            to {transform: translate(1px, 0)}
+        }
+    }
+}
+

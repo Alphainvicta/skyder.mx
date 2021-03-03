@@ -1,0 +1,51 @@
+form{
+     color: grey;
+
+     .formulario-contenedor-top{
+          display: flex;
+          justify-content: space-around;
+
+          .form-control{
+               background: none !important;
+               color: grey !important;
+               width: 15rem;
+               border: none;
+               border-bottom: 1px solid white;
+              }
+     }
+
+     .formulario-lista{
+          display: flex;
+          justify-content: space-between;
+          padding: 2rem 5rem;
+          margin-left: 3rem;
+
+          input{
+               margin: none 3rem;
+          }
+     }
+
+     .formulario-detalles-contenedor{
+          margin-left: 4.5rem;
+
+          textarea{
+               background: none !important;
+               color: grey !important;
+               resize: none;
+               width: 105% !important;
+               height: 7rem !important;
+          }
+     }
+
+     .formulario-boton-contenedor{
+          display: flex;
+          justify-content: center;
+          padding-left: 4.5rem;
+          padding-top: 2rem;
+
+          button {
+               width: 25%;
+               color: grey;
+          }
+     }
+}

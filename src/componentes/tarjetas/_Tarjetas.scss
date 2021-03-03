@@ -1,0 +1,39 @@
+.tarjeta{
+    margin: 2rem;
+    width: 30rem;
+    height: 16rem;
+    border: solid white;
+    
+    background-repeat: no-repeat;
+    background-size: 30rem 16rem;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    .tarjeta-contenedor-general{
+
+        .tarjeta-categoria-contenedor{
+            margin: 2rem 1.5rem 3rem 1.5rem; 
+            display: flex;
+            justify-content: center;
+
+            svg{
+                width: auto;
+                height: 4rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+
+                g{
+                    fill: white;
+                }
+            }
+        }
+
+        .tarjeta-texto-contenedor{
+            padding: 3rem 1rem;
+            text-align: center;
+
+        }
+    }
+}

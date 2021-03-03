@@ -1,0 +1,69 @@
+footer {
+    background-color: #212529;
+    color: white;
+    padding-top: 2rem;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    .__texto {
+        display: flex;
+        justify-content:space-evenly;
+    }
+}
+
+.regresar-arriba{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    
+    svg {
+        width: auto;
+        height: 2rem;
+    }
+
+    g{  
+        transition: 1s; 
+    }
+
+    g:hover{
+        fill:blue;
+    }
+}
+
+
+
+.links-sociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    svg {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: auto;
+        height: 3rem;
+    }
+
+    g{
+        transition: 1s;
+    }
+
+    .facebook g:hover{
+        fill: #1778F2;
+    }
+
+    .instagram g:hover{
+        fill: #8134AF;
+    }
+
+    .youtube g:hover{
+        fill: #FF0000;
+    }
+
+    .behance g:hover{
+        fill: white;
+    }
+}

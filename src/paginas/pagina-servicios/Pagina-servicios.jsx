@@ -4,16 +4,10 @@ import Lista from '../../componentes/tarjetas/Tarjetas-lista.jsx';
 
 const Servicios = () => (
     <div className='servicios'>
-        <div className='servicios-texto-contenedor'>
-            <div className='servicios-texto'>
+        <div className='servicios-titulo-contenedor'>
+            <div className='servicios-titulo'>
                 <h1>Servicios</h1>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio illo minus id odit laudantium. Facere ut, eaque ipsum aut saepe illo consequatur voluptate commodi culpa accusamus aliquam debitis nam est.</span>
-            </div>
-        </div>
-
-        <div className='servicios-buscador-contenedor'>
-            <div className='servicios-buscador'>
-                
+                <h2>Nuestros servicios a tu disposicion</h2>
             </div>
         </div>
 
@@ -22,8 +16,7 @@ const Servicios = () => (
                 <ul className='tarjetas-listado'>
                      <Lista />  
                 </ul>
-            </div>
-                
+            </div> 
         </div>
     </div>
 )

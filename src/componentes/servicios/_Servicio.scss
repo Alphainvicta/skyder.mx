@@ -1,0 +1,39 @@
+.servicio{
+    margin-left: 20rem;
+    margin-right: 20rem;
+
+    .servicio-contenedor-general{
+        margin-top: 2rem;
+        width: 100%;
+        text-align: center;
+        
+        h1{
+            font-size: 6rem;
+        }
+    }
+
+    .servicio-contenedor-descripcion{
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+
+        .servicio-contenedor-video{
+            margin-right: 2rem;
+            video{
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .servicio-descripcion{
+            align-items: center !important;
+            position: relative;
+
+            button{
+                margin-top: 3rem;
+                color: grey;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,40 @@
+.nosotros{
+    padding-top: 2rem;
+
+    .nosotros-titulo-contenedor {
+        text-align: center;
+        padding-bottom: 4rem;
+
+        h1 {
+            font-size: 6rem;
+        }
+
+        h2{
+            padding-top: 4rem;
+            font-size: 3rem;
+        }
+    }
+
+    .nosotros-empleados-contenedor{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+
+    .nosotros-adam-contenedor{
+        margin-left: 20rem;
+        margin-right: 20rem;
+        margin-bottom: 3rem;
+
+        .nosotros-adam-texto{
+            text-align: justify;
+
+            span{
+                padding-top: 5rem;
+            }
+        }
+    }
+}

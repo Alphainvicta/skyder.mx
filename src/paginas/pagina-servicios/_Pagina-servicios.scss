@@ -1,0 +1,35 @@
+.servicios{
+    padding-top: 2rem;
+
+    .servicios-titulo-contenedor{
+            text-align: center;
+            padding-bottom: 4rem;
+    
+            h1 {
+                font-size: 6rem;
+            }
+    
+            h2{
+                padding-top: 4rem;
+                font-size: 3rem;
+            }
+    }
+
+    .servicios-tarjetas-contenedor {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-right: 20rem;
+        margin-left: 20rem;
+
+        .servicios-tarjetas{
+            ul{
+                list-style-type: none;
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
