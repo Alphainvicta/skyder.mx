@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Empleados = ({ foto, nombre, ocupacion }) => (
-    <div className='empleados'>
-        <div className='empleados-contenedor'>
+    <ul className='empleados'>
+        <li className='empleados-contenedor'>
             <div className='empleados-foto'>
                 <img src={ foto } alt='foto' />   
             </div>
@@ -10,8 +10,8 @@ const Empleados = ({ foto, nombre, ocupacion }) => (
                 <h1>{ nombre }</h1>
                 <span>{ ocupacion }</span>
             </div>
-        </div>
-    </div>
+        </li>
+    </ul>
     
 )
 

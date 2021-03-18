@@ -10,14 +10,20 @@ class Lista extends React.Component {
         this.state = {
             equipo : [{
                 foto : foto0,
-                nombre : 'Cherk',
-                ocupacion : 'Fundador',
+                nombre : 'Saul Aceves Escárcega',
+                ocupacion : 'Jefe de operaciones',
                 id : 0
             },
             {
                 foto : foto1,
-                nombre : 'linus',
-                ocupacion : 'IT',
+                nombre : 'Oscar Iván Soltero',
+                ocupacion : 'Jefe de diseño creativo',
+                id : 1
+            },
+            {
+                foto : foto1,
+                nombre : 'Paul Aceves Escárcega',
+                ocupacion : 'Jefe de TI',
                 id : 1
             }
             ]

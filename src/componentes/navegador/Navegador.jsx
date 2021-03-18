@@ -19,6 +19,9 @@ const Navegador = () => (
 
             <div className='navegador-nav collapse navbar-collapse' id='navbarNavAltMarkup'>
                 <div className='navbar-nav'>
+                        <Link to='/' className='nav-link'>
+                            <h1>Inicio</h1>
+                        </Link>
                         <Link to='/nosotros' className='nav-link'>
                             <h1>Nosotros</h1>
                         </Link>

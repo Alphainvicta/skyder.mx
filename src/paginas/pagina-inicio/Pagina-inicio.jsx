@@ -8,15 +8,16 @@ const Inicio = () => (
     <div className='inicio'>
         <div className='inicio-contenedor-general'>
 
-            <div className='inicio-titulo-contenedor'>
-                <div className='inicio-titulo'>
-                    <h1>Skyder</h1>
-                </div> 
-            </div>
-
             <div className='inicio-contenedor-video'>
                <div className='inicio-video'>
                     <video src={ Video } muted autoPlay loop/>
+                </div>
+                <div className='inicio-skyder'>
+                    <h1>Skyder</h1>
+                </div>
+                <div className='inicio-texto'>
+                    <h1>Media for everything</h1>
+                    <span>Somos un espacio para la creatividad de comunicación audiovisual en Guadalajara</span>
                 </div>
             </div>
             

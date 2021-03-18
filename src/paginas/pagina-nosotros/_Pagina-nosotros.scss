@@ -2,14 +2,38 @@
     padding-top: 2rem;
 
     .nosotros-titulo-contenedor {
-        text-align: center;
         padding-bottom: 4rem;
 
         h1 {
+            margin-left: 20rem; 
             font-size: 6rem;
         }
 
+        span{
+            margin-left: 20rem;
+            padding-top: 4rem;
+            font-size: 1.5rem;
+        }
+
+        ul{
+            margin-top: 2rem;
+            margin-left: 18rem;
+            list-style-type: none;
+            display: flex;
+            justify-content: right;
+            flex-wrap: wrap;
+
+            li{
+                padding-top: 4rem;
+                font-size: 1.5rem;
+                background-color: black;
+                padding: .2rem;
+                margin-right: 3rem;
+            }
+        }
+
         h2{
+            margin-left: 20rem;
             padding-top: 4rem;
             font-size: 3rem;
         }
@@ -17,7 +41,7 @@
 
     .nosotros-empleados-contenedor{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-wrap: wrap;
         margin-bottom: 3rem;
         margin-left: 20rem;
@@ -28,6 +52,8 @@
         margin-left: 20rem;
         margin-right: 20rem;
         margin-bottom: 3rem;
+        border-left: solid white;
+        padding-left: 2rem;
 
         .nosotros-adam-texto{
             text-align: justify;

@@ -1,7 +1,11 @@
 .empleados{
-    padding: 2rem;
+    padding: 1rem;
+    list-style-type: none;
+    
 
     .empleados-foto{
+        display: flex;
+        justify-content: center;
 
         img{
             width: 18rem;
