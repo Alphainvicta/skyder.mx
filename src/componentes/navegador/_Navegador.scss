@@ -1,20 +1,20 @@
-.navegador{
-    background: none !important;
-    margin-left: 20rem;
-    margin-right: 20rem;
+.navegador {
+  background: none !important;
+  margin-left: 20rem;
+  margin-right: 20rem;
 
-    .navegador-logo{
-        img{
-            width: 5rem;
-            height: auto;
-        }
+  .navegador-logo {
+    img {
+      width: auto;
+      height: 3rem;
     }
+  }
 
-    .navegador-nav{
-        justify-content: flex-end;
+  .navegador-nav {
+    justify-content: flex-end;
 
-        a{
-            margin-left: 5rem;
-        }
+    a {
+      margin-left: 5rem;
     }
+  }
 }

@@ -1,61 +1,60 @@
-.contacto{
-    margin-top: 2rem;
+.contacto {
+  margin-top: 2rem;
 
-    .contacto-titulo-contenedor {
-        text-align: center;
-        margin-bottom: 4rem;
+  .contacto-titulo-contenedor {
+    margin-left: 20rem;
+    margin-bottom: 4rem;
 
-        h1 {
-            font-size: 6rem;
-        }
+    h1 {
+      font-size: 6rem;
+    }
+  }
+
+  .contacto-contenedor-general {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+
+    .contacto-formulario-contenedor {
+      text-align: justify;
+
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        margin-left: 5rem;
+      }
     }
 
-    .contacto-contenedor-general{
-        display: flex;
-        justify-content: space-evenly;
-        padding-bottom: 3rem;
-
-        .contacto-formulario-contenedor{
-            text-align: justify;
-            padding-right: 2rem;
-
-            h2{
-                font-size: 1.5rem;
-                margin-bottom: 2rem;
-                margin-left: 5rem;
-            }
-        }
-
-        .linea{
-            border: 1px solid white;
-        }
-
-        .contacto-whatsapp-contenedor{
-            text-align: center;
-            margin-right: 10rem;
-
-            .contacto-whatsapp-texto{
-                padding-bottom: 2rem;
-
-                h2{
-                    font-size: 1.5rem;
-                }
-            }
-
-            svg{
-                height: 22rem;
-                width: auto;
-
-                g{
-                    transition: 1s;
-                } 
-        
-                g:hover{
-                    fill: #4FCE5D;
-                }
-            }
-        }
+    .linea {
+      border: 1px solid white;
     }
 
-    
+    .contacto-whatsapp-contenedor {
+      text-align: center;
+      margin-right: 10rem;
+
+      .contacto-whatsapp-texto {
+        padding-bottom: 2rem;
+
+        h2 {
+          font-size: 1.5rem;
+        }
+      }
+
+      svg {
+        height: 22rem;
+        width: auto;
+
+        g {
+          transition: 1s;
+        }
+      }
+
+      svg:hover {
+        g {
+          fill: #4fce5d;
+        }
+      }
+    }
+  }
 }

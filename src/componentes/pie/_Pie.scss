@@ -1,69 +1,77 @@
 footer {
-    background-color: #212529;
-    color: white;
-    padding-top: 2rem;
-    position: relative;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
+  background-color: #212529;
+  color: white;
+  padding-top: 2rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
 
-    .__texto {
-        display: flex;
-        justify-content:space-evenly;
-    }
+  .__texto {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
-.regresar-arriba{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 2rem;
-    
-    svg {
-        width: auto;
-        height: 2rem;
-    }
+.regresar-arriba {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
 
-    g{  
-        transition: 1s; 
-    }
+  svg {
+    width: auto;
+    height: 2rem;
+  }
 
-    g:hover{
-        fill:blue;
-    }
+  g {
+    transition: 1s;
+  }
 }
 
+.regresar-arriba:hover {
+  g {
+    fill: blue;
+  }
+}
 
+.links-sociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
-.links-sociales{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  svg {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: auto;
+    height: 3rem;
+  }
 
-    svg {
-        padding-left: 2rem;
-        padding-right: 2rem;
-        width: auto;
-        height: 3rem;
-    }
+  g {
+    transition: 1s;
+  }
+}
 
-    g{
-        transition: 1s;
-    }
+.facebook:hover {
+  g {
+    fill: #1778f2;
+  }
+}
 
-    .facebook g:hover{
-        fill: #1778F2;
-    }
+.instagram:hover {
+  g {
+    fill: #8134af;
+  }
+}
 
-    .instagram g:hover{
-        fill: #8134AF;
-    }
+.youtube:hover {
+  g {
+    fill: #ff0000;
+  }
+}
 
-    .youtube g:hover{
-        fill: #FF0000;
-    }
-
-    .behance g:hover{
-        fill: white;
-    }
+.behance:hover {
+  g {
+    fill: white;
+  }
 }

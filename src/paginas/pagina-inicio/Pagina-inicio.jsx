@@ -1,19 +1,20 @@
 import React from 'react';
 import Lista from '../../componentes/logos/Logos-lista'
 import Video from './video-prueba.mp4';
+import Skyder from './skyder.png';
 
 const Inicio = () => (
     
 
     <div className='inicio'>
-        <div className='inicio-contenedor-general'>
+        <div className='inicio-contenedor-video'>
+            <div className='inicio-video'>
+                <video src={ Video } muted autoPlay loop/>
+            </div>
 
-            <div className='inicio-contenedor-video'>
-               <div className='inicio-video'>
-                    <video src={ Video } muted autoPlay loop/>
-                </div>
+            <div className='inicio-video-texto'>
                 <div className='inicio-skyder'>
-                    <h1>Skyder</h1>
+                    <img src={ Skyder } alt='skyder'/>
                 </div>
                 <div className='inicio-texto'>
                     <h1>Media for everything</h1>
@@ -22,6 +23,7 @@ const Inicio = () => (
             </div>
             
         </div>
+ 
         <div className='empresas-contenedor-general'>
 
             <div className='empresas-contenedor-texto'>

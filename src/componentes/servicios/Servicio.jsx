@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Servicio = ({ servicio, video, descripcion }) => (
+const Servicio = ({ servicio, video, descripcion, contexto}) => (
     <div className='servicio'>
             <div className='servicio-contenedor-general'>
 
@@ -12,14 +12,10 @@ const Servicio = ({ servicio, video, descripcion }) => (
             </div>
 
             <div className='servicio-contenedor-descripcion'>
-                <div className='servicio-contenedor-video'>
-                    <div className='servicio-video'>
-                        <video src={ video } muted autoPlay loop/>
-                    </div>
-                </div>
 
                 <div className='servicio-descripcion'>
                     <h2>{ descripcion }</h2>
+                    <span>{ contexto }</span>
 
                     <div className='servicio-boton'>
                         <Link to='/contacto'>
@@ -28,6 +24,13 @@ const Servicio = ({ servicio, video, descripcion }) => (
                     </div>
 
                 </div>
+
+                <div className='servicio-contenedor-video'>
+                    <div className='servicio-video'>
+                        <video src={ video } muted autoPlay loop/>
+                    </div>
+                </div>
+
             </div>
     </div>
 )

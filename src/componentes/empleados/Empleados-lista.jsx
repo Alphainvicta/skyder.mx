@@ -1,8 +1,9 @@
 import React from 'react';
 import Empleados from './Empleados.jsx';
 
-import foto0 from './fotos/foto0.png';
-import foto1 from './fotos/foto1.png';
+import foto0 from './fotos/foto0.jpg';
+import foto1 from './fotos/foto1.jfif';
+import foto2 from './fotos/foto2.jfif';
 
 class Lista extends React.Component {
     constructor() {
@@ -21,7 +22,7 @@ class Lista extends React.Component {
                 id : 1
             },
             {
-                foto : foto1,
+                foto : foto2,
                 nombre : 'Paul Aceves Escárcega',
                 ocupacion : 'Jefe de TI',
                 id : 1

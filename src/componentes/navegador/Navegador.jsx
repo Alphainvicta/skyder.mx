@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import inicio from './inicio.png'
 
 const Navegador = () => (
-    <nav className='navegador navbar navbar-expand-xl navbar-dark bg-dark' role='navigation'>
+    <nav className='navegador navbar navbar-expand-xxl navbar-dark bg-dark' role='navigation'>
         <div className='container-fluid'>
 
             <div className='navegador-logo navbar-brand'>
