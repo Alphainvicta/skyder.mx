@@ -3,7 +3,7 @@ import Empleados from './Empleados.jsx';
 
 import foto0 from './fotos/foto0.jpg';
 import foto1 from './fotos/foto1.jfif';
-import foto2 from './fotos/foto2.jfif';
+import foto2 from './fotos/foto2.png';
 
 class Lista extends React.Component {
     constructor() {
