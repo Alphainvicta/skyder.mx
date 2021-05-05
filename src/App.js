@@ -1,4 +1,3 @@
-import './App.css';
 import {Route, Switch} from 'react-router-dom';
 import Navegador from './componentes/navegador/Navegador.jsx';
 import Pie from './componentes/pie/Pie.jsx';
